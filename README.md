@@ -6,9 +6,15 @@ A Git subcommand to `git mv` file like gsub in a repository
 
 ```sh
 $ git gsub-files READ WRITE
+$ git status
+On branch master
+Changes to be committed:
+(use "git reset HEAD <file>..." to unstage)
+
+        renamed:    README.md -> WRITEME.md
 ```
 
-## See alsp
+## See also
 
 - [git-gsub](https://github.com/fujimura/git-gsub) A Git subcommand to do gsub in a repository
 
