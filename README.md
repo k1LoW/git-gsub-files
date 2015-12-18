@@ -23,6 +23,23 @@ WRITEME.md
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
+### `--add` option
+
+Run `git mv` instead of `mv`.
+
+```sh
+$ git gsub-files READ WRITE --add
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+(use "git reset HEAD <file>..." to unstage)
+
+renamed:    README.md -> WRITEME.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+
 ## Instration
 
     $ gem install git-gsub-files
