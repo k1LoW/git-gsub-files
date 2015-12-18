@@ -14,6 +14,10 @@ Changes to be committed:
         renamed:    README.md -> WRITEME.md
 ```
 
+## Instration
+
+    $ gem install git-gsub-files
+
 ## See also
 
 - [git-gsub](https://github.com/fujimura/git-gsub) A Git subcommand to do gsub in a repository
