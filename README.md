@@ -1,6 +1,6 @@
 # git-gsub-files
 
-A Git subcommand to `git mv` file like gsub in a repository
+A Git subcommand to `mv` file like gsub in a repository
 
 ## Usage
 
@@ -8,10 +8,19 @@ A Git subcommand to `git mv` file like gsub in a repository
 $ git gsub-files READ WRITE
 $ git status
 On branch master
-Changes to be committed:
-(use "git reset HEAD <file>..." to unstage)
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+(use "git add/rm <file>..." to update what will be committed)
+(use "git checkout -- <file>..." to discard changes in working directory)
 
-        renamed:    README.md -> WRITEME.md
+deleted:    README.md
+
+Untracked files:
+(use "git add <file>..." to include in what will be committed)
+
+WRITEME.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
 ## Instration

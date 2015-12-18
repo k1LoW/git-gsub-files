@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ['k1LoW']
   spec.email         = ['k1lowxb@gmail.com']
 
-  spec.summary       = 'A Git subcommand to `git mv` file like gsub in a repository'
-  spec.description   = 'A Git subcommand to `git mv` file like gsub in a repository'
+  spec.summary       = 'A Git subcommand to `mv` file like gsub in a repository'
+  spec.description   = 'A Git subcommand to `mv` file like gsub in a repository'
   spec.homepage      = 'https://github.com/k1LoW/git-gsub-files'
   spec.license       = 'MIT'
 
