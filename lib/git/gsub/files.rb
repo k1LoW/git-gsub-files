@@ -27,7 +27,7 @@ module Git
         (`git ls-files #{path}`).each_line.map(&:chomp).map do |file|
           next unless File.basename(file).match(from)
           to_file = File.dirname(file) + '/' + File.basename(file).gsub(from, to)
-          system %|git mv #{file} #{to_file}|
+          system %|mv #{file} #{to_file}|
         end
       end
     end
