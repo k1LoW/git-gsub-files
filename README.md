@@ -1,4 +1,4 @@
-# git-gsub-files
+# git-gsub-files [![Gem](https://img.shields.io/gem/v/git-gsub-files.svg)](https://rubygems.org/gems/git-gsub-files) [![Travis](https://img.shields.io/travis/k1LoW/git-gsub-files.svg)](https://travis-ci.org/k1LoW/git-gsub-files)
 
 A Git subcommand to `mv` file like gsub in a repository
 
@@ -47,6 +47,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 ## See also
 
 - [git-gsub](https://github.com/fujimura/git-gsub) A Git subcommand to do gsub in a repository
+- [git-rename](https://github.com/fujimura/dotfiles/blob/master/bin/git-rename)
 
 ## Contributing
 
