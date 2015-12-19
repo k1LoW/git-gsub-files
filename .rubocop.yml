@@ -1,3 +1,7 @@
+FileName:
+  Exclude:
+    - '**/git-gsub-files'
+          
 Lint/Eval:
   Enabled: false
 
