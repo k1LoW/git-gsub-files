@@ -21,6 +21,8 @@ describe 'git-gsub-files' do
     run_in_directory_with_a_file('README.md') do
       Git::Gsub::Files.gsub_files('mv', 'READ', 'WRITE')
       expect(`ls`).to eql "WRITEME.md\n"
+      expect(`git status`).to match(/deleted:/)
+      expect(`git status`).not_to match(/renamed:/)
     end
   end
 
@@ -28,6 +30,7 @@ describe 'git-gsub-files' do
     run_in_directory_with_a_file('README.md') do
       Git::Gsub::Files.gsub_files('git mv', 'READ', 'WRITE')
       expect(`ls`).to eql "WRITEME.md\n"
+      expect(`git status`).to match(/renamed:/)
     end
   end
 end
